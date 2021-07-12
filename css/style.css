@@ -46,3 +46,44 @@ Common CSS
   text-align: justify;
   font-size: 14px;
 }
+
+
+/*=========================================
+Subscribe Section
+===========================================*/
+
+
+.subscribe{
+  background-color: #F0F0F0;
+  padding: 100px;
+}
+
+.subscribe h1{
+  color: #333333;
+  font-size: 30px;
+}
+
+.form-custom::placeholder{
+  font-size: 14px;
+  color: #626262;
+}
+
+.form-custom{
+  border: none !important;
+  border-bottom: 2px solid #333333 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+form{
+  position: relative;
+}
+
+.btn-submit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  outline: none !important;
+  box-shadow: none !important;
+}
