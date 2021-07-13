@@ -47,6 +47,19 @@ Common CSS
   font-size: 14px;
 }
 
+.feature-img{
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.feature-img img{
+  transition: all .7s linear;
+}
+
+.feature-img img:hover{
+  transform: scale(1.1);
+}
 
 /*=========================================
 Subscribe Section
