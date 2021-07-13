@@ -87,3 +87,20 @@ form{
   outline: none !important;
   box-shadow: none !important;
 }
+
+/*=========================================
+Footer Section
+===========================================*/
+
+.footer{
+  background-color: #F0F0F0;
+}
+
+.terms a, .terms span{
+  font-size: 14px;
+  color: #000000;
+}
+
+.terms span:hover{
+  color: #000000;
+}
